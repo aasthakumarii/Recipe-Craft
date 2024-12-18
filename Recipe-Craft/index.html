@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <!-- samhwnuxmxwfe -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPE_CRAFT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css" />
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+</head>
+    
+<body>
+    <!-- Loader Animation -->
+    <div id="loader">
+        <div class="item" style="--width: 2px; --height: 2px">
+            <img src="recipe logo.gif" alt="Recipe Logo" id="refreshLogo" title="Click to refresh">
+        </div>
+    </div>
+    
+    
+    <header>
+        <div class="navbar">
+            <h3 class="logo">
+                <img src="website logo.png" alt="Website Logo" style="width: 250px; height: 125px;">
+            </h3>
+            <div class="navbar-links">
+                <nav>
+                    <ul>
+                        <li><a href="login_signup.html">Login/Signup</a></li>
+                        <li><button id="viewSavedRecipesBtn">View Saved Recipes</button></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container hidden" id="mainContent">
+        <section class="text-center mt-5">
+            
+            
+            <form action="">
+                <div class="d-flex w-50 mx-auto">
+                    <input type="text" class="form-control search-input" placeholder="Type ingredients to search" aria-label="Search ingredients" 
+                    maxlength="100" required>
+                    <input type="submit" class='btn btn-primary'>
+                </div>
+                <div class="filter-condition hidde" id="filterCondition">
+                    <button id="sortButton" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Sort by calories
+                    </button>
+                    <ul class="dropdown-menu" id="sortOptions">
+                        <li><a class="dropdown-item" data-value="Default">Default</a></li>
+                        <li><a class="dropdown-item" data-value="Low to high">Low to high</a></li>
+                        <li><a class="dropdown-item" data-value="High to low">High to low</a></li>
+                    </ul>
+                </div>
+            </form>
+            
+            <section class="text-center mt-3">
+                <button id="surpriseBtn" class="btn btn-warning">Surprise Me!</button>
+            </section>
+            
+            <div id="slideshowContainer">
+                <div class="slider" style="--width: 200px; --height: 200px; --quantity: 10; margin-bottom: 150px; margin-top: 150px;">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/food1.jpg" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/food2.jpg" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="images/food3.jpg" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="images/food4.jpg" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/food5.jpg" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="images/food6.jpg" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/food7.png" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="images/food8.jpg" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="images/food9.jpg" alt=""></div>
+                        <div class="item" style="--position: 10"><img src="images/food10.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="showRecipe" class="row pt-5"></section>
+        </section>
+    </div>
+    <div id="recipeContainer">
+        <!-- <h4>Surprise Recipe:</h4> -->
+        <p id="randomRecipe"></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 RecipeCraft. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "GZVBre0N6lfOFiGA4tgI4",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="GZVBre0N6lfOFiGA4tgI4"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+</body>
+</html>
