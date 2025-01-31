@@ -20,7 +20,6 @@ Recipe Craft is a **web-based recipe discovery platform** that helps users find 
 - **API**: Edamam Recipe Search API  
 - **Authentication**: Firebase Authentication  
 - **Hosting**: AWS S3  
-![image](https://github.com/user-attachments/assets/62418e87-b9ae-4abd-9815-18ce9617dedc)
 
 ---
 
@@ -40,3 +39,16 @@ Future Enhancements
 
 License
 This project is licensed under the MIT License.
+
+Contact
+You can connect with me on linkedIn @aastha_kumarii
+
+Preview of the project
+![Screenshot 2025-01-31 215414](https://github.com/user-attachments/assets/2fdea067-b57e-4ce1-95bd-7eb5a7e85abc)
+![Screenshot 2025-01-31 215433](https://github.com/user-attachments/assets/884159b0-6b11-4b29-8f33-90352963c073)
+![Screenshot 2025-01-31 215521](https://github.com/user-attachments/assets/3d3ed395-7a57-4ddd-ae03-304bdf710ce3)
+![Screenshot 2025-01-31 215821](https://github.com/user-attachments/assets/7cdfc1c4-ca75-4d58-8df0-7c405072eef3)
+
+
+
+
