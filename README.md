@@ -20,6 +20,7 @@ Recipe Craft is a **web-based recipe discovery platform** that helps users find 
 - **API**: Edamam Recipe Search API  
 - **Authentication**: Firebase Authentication  
 - **Hosting**: AWS S3  
+![image](https://github.com/user-attachments/assets/62418e87-b9ae-4abd-9815-18ce9617dedc)
 
 ---
 
