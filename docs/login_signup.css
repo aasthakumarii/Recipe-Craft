@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background: url("particles 2.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #0f32e6df;
+  font-size: 2.5vw; /* Responsive font size */
+  letter-spacing: 0.1em;
+}
+
+p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+}
+
+p span {
+  background: black;
+  padding: 0 10px;
+}
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e1bc05;
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40vw; /* Dynamic width */
+  max-width: 500px; /* Prevents it from getting too large */
+  min-width: 300px; /* Prevents it from shrinking too small */
+  border-radius: 5%;
+}
+
+input, button {
+  padding: 3%;
+  width: 100%;
+  font-size: 1vw; /* Responsive font size */
+  margin-bottom: 3%;
+  border-radius: 5px;
+  border: none;
+}
+
+input:last-of-type {
+  margin-bottom: 0;
+}
+
+#submit, #create-acct-btn {
+  background-color: #0f32e6df;
+  color: white;
+  margin-top: 3%;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+#sign-up {
+  border: none;
+}
+
+#create-acct {
+  display: none; /* Initially hidden */
+}
+
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+  font-size: 0.9vw; /* Slightly smaller font size */
+}
+
